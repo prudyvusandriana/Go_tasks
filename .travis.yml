@@ -1,6 +1,5 @@
 language: go
-script: go get github.com/prudyvusandriana/Go_tasks && go test ./...
-before_install:
+script: go get github.com/prudyvusandriana/Go_tasks/src/database && go test 
 - go get -v github.com/golang/lint/golint
 install:
   - go get -v github.com/Masterminds/glide
