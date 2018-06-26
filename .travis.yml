@@ -1,6 +1,5 @@
 language: go
-script:
-- go test ./...
+script: go get github.com/prudyvusandriana/Go_tasks && go test ./...
 before_install:
 - go get -v github.com/golang/lint/golint
 install:
