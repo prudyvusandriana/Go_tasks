@@ -1,7 +1,7 @@
 package models
 
 import (
-	. "github.com/Nastya-Kruglikova/cool_tasks/src/database"
+	. "github.com/prudyvusandriana/Go_tasks/src/database"
 	"github.com/satori/go.uuid"
 )
 

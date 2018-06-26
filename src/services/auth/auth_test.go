@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"net/url"
 	"testing"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/models"
+	"github.com/prudyvusandriana/Go_tasks/src/models"
 	"github.com/satori/go.uuid"
 )
 

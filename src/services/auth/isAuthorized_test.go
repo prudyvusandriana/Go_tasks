@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"testing"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/common"
+	"github.com/prudyvusandriana/Go_tasks/src/services/common"
 )
 
 var cookieSession string = "6c3a65d23c5f26fc529f6c5ce01a6b31"

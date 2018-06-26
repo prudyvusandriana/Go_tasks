@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services"
+	"github.com/prudyvusandriana/Go_tasks/src/services"
 )
 
 var router = services.NewRouter()

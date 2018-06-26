@@ -1,4 +1,6 @@
-package: github.com/Nastya-Kruglikova/cool_tasks/src
+package: github.com/prudyvusandriana/Go_tasks/src
+ignore:
+- testing
 import:
 - package: github.com/alicebob/miniredis
 - package: github.com/garyburd/redigo

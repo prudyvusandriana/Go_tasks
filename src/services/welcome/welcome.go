@@ -3,7 +3,7 @@ package welcome
 import (
 	"net/http"
 
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/common"
+	"github.com/prudyvusandriana/Go_tasks/src/services/common"
 )
 
 type welcomeStruct struct {

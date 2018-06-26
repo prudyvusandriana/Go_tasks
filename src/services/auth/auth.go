@@ -3,12 +3,12 @@ package auth
 import (
 	"database/sql"
 	"errors"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/common"
+	"github.com/prudyvusandriana/Go_tasks/src/services/common"
 	"github.com/alicebob/miniredis"
 	"github.com/satori/go.uuid"
 	"gopkg.in/DATA-DOG/go-sqlmock.v1"
 	"net/http"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/models"
+	"github.com/prudyvusandriana/Go_tasks/src/models"
 	"time"
 )
 

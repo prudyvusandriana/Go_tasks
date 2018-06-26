@@ -2,14 +2,13 @@ package main
 
 import (
 	"flag"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/config"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/database"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services"
+	"github.com/prudyvusandriana/Go_tasks/src/config"
+	"github.com/prudyvusandriana/Go_tasks/src/services"
 	"github.com/urfave/negroni"
 	"log"
 	"net/http"
 	"os"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/auth"
+	"github.com/prudyvusandriana/Go_tasks/src/services/auth"
 )
 
 func main() {
@@ -29,11 +28,11 @@ func main() {
 	if err != nil {
 		log.Fatalf("error opening file: %v", err)
 	}
-
-	database.DB, err = database.SetupPostgres(config.Config.Database)
-	if err != nil {
-		log.Fatalf("eror while loading postgreSQL: %s:", err)
-	}
+	//
+	//database.DB, err = database.SetupPostgres(config.Config.Database)
+	//if err != nil {
+	//	log.Fatalf("eror while loading postgreSQL: %s:", err)
+	//}
 
 	//database.Cache, err = database.SetupRedis(config.Config.Database)
 	//if err != nil {

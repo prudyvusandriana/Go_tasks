@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/database"
+	"github.com/prudyvusandriana/Go_tasks/src/database"
 	"io/ioutil"
 	"log"
 )

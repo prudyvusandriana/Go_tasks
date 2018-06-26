@@ -1,8 +1,8 @@
 package database_test
 
 import (
-	"github.com/Nastya-Kruglikova/cool_tasks/src/config"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/database"
+	"github.com/prudyvusandriana/Go_tasks/src/config"
+	"github.com/prudyvusandriana/Go_tasks/src/database"
 	"github.com/rafaeljusto/redigomock"
 	"gopkg.in/DATA-DOG/go-sqlmock.v1"
 	"testing"

@@ -1,11 +1,11 @@
 package services
 
 import (
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/auth"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/common"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/tasksCRUD"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/usersCRUD"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/welcome"
+	"github.com/prudyvusandriana/Go_tasks/src/services/auth"
+	"github.com/prudyvusandriana/Go_tasks/src/services/common"
+	"github.com/prudyvusandriana/Go_tasks/src/services/tasksCRUD"
+	"github.com/prudyvusandriana/Go_tasks/src/services/usersCRUD"
+	"github.com/prudyvusandriana/Go_tasks/src/services/welcome"
 	"github.com/gorilla/mux"
 	"net/http"
 )
